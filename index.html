@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <!-- form for search bar -->
+            <form>
+                <input
+                    type="text"
+                    placeholder="Search for the recipes...."
+                    class="searchBox"
+                />
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <!-- For containing recipies which will be fetched from API -->
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes....</h2>
+            </div>
+            <div class="recipe-details">
+                <button ytpe="button" class="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" 
+    integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+</body>
+</html>
